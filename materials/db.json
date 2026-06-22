@@ -91,96 +91,6 @@
       "posY": 8.823529411764703
     },
     {
-      "id": "preset-mosaic",
-      "name": "Mosaic 纵轴滑卡分屏交互落地页",
-      "description": "通过极富呼吸感的分栏网格，将创新的纵向层叠滑动视窗（Vertical Carousel）与精密自适应网格完美交织的落地首屏。主视觉的纵向滑阅带来了极强的纵深成长感（纵生感）。",
-      "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1000&q=80",
-      "isAnalyzed": true,
-      "websiteUrl": "https://www.rezo-zero.com",
-      "tags": [
-        {
-          "id": "t11",
-          "name": "纵生感交互",
-          "category": "Aesthetic"
-        },
-        {
-          "id": "t12",
-          "name": "非对称双栏",
-          "category": "Aesthetic"
-        },
-        {
-          "id": "t13",
-          "name": "瑞士网格控制",
-          "category": "Aesthetic"
-        },
-        {
-          "id": "t14",
-          "name": "极简等宽印记",
-          "category": "Aesthetic"
-        },
-        {
-          "id": "t15",
-          "name": "纵轴滚动吸附",
-          "category": "Technical"
-        },
-        {
-          "id": "t16",
-          "name": "12列流动格栅",
-          "category": "Technical"
-        },
-        {
-          "id": "t17",
-          "name": "1px 透明透镜描边",
-          "category": "Technical"
-        }
-      ],
-      "prompt": "A premium, ultra-modern portfolio homepage interface. The main focus is an interactive device container demonstrating custom applications via layered vertical card sliders which snap into placement dynamically. The surrounding page has asymmetrical 12-column layout grid structures, ultra-clean monospace header metrics, elegant sans-serif lettering with generous line spacing, bone-white slate grey interface balance, exceptionally tactile depth.",
-      "specs": "/* Tailwind 样式规范: Mosaic 纵轴滑卡 */\n\n- 纵向滑轴滑格: flex flex-col gap-6 overflow-y-auto h-[480px] snap-y snap-mandatory scroll-smooth\n- 视窗单元卡片: snap-start shrink-0 rounded-2xl border border-neutral-200/50 hover:border-emerald-800/20 bg-white/95 p-6 shadow-xs transition-transform duration-300\n- 格期网格对齐: grid grid-cols-12 divide-x divide-zinc-200/50 gap-4 sm:gap-8\n- 高阶字体配比: font-sans tracking-wide leading-relaxed font-normal text-zinc-900",
-      "uiSpecification": {
-        "background": "清冷骨面平铺浅灰纸底 (#FAF9F6 / 拼贴感杂志级清爽大底白)",
-        "panels": "24px 超大圆角容器面板布局，1px 极精细半透明骨骼色抗噪边框",
-        "shadows": "结合 24px 高斯背景磨砂模糊 + 边缘深度 0.02 绝无晕散的超轻悬空物理背影",
-        "controls": "垂直滑轴自动吸附叠卡轮播（Snap-Mandatory Vertical Carousel）+ 模块化胶囊微徽章",
-        "typography": "现代无衬线 Inter 变体标题体系 + 右翼角数 Uniform-sized Mono 等距大小写边缘刻度线格式对准"
-      },
-      "annotations": [
-        {
-          "id": "ann-m1",
-          "num": 1,
-          "x": 50,
-          "y": 45,
-          "title": "纵轴级立体叠堆滑动流 (Vertical Carousel)",
-          "desc": "摒弃了常见的左右横向滑块或者走马灯，采用自上而下的纵向吸附卡片。向上滚动将展现极具物理接触质感的滑动吸附，为中央视觉视窗赋予极强的向上「物语纵生感」。"
-        },
-        {
-          "id": "ann-m2",
-          "num": 2,
-          "x": 15,
-          "y": 35,
-          "title": "非对称12列现代网格布局 (Asymmetrical CSS Grid)",
-          "desc": "页面以 12 栅格进行严格分块：左/右两翼留空并呈等宽排列，信息各归其位，营造出如同杂志版面般的开阔留白与呼吸感。"
-        },
-        {
-          "id": "ann-m3",
-          "num": 3,
-          "x": 82,
-          "y": 65,
-          "title": "等距字符功能行 (Monospace Metric line)",
-          "desc": "版本注释、版权落款及当前索引均为 Uniform-sized monospace 全大写字，像物理仪器的精细刻度盘一般对齐在网格边缘，增强了科技细节感知，而不会干扰主标题格式。"
-        },
-        {
-          "id": "ann-m4",
-          "num": 4,
-          "x": 48,
-          "y": 85,
-          "title": "大纵深边缘触觉微阴影 (Fluid Contact Shadow)",
-          "desc": "卡片边缘采用 1px 微显色边框结合极低不透明度的扩散阴影，使中轴叠片悬浮于底纸纸感之上，重塑精细的物理界面层叠感。"
-        }
-      ],
-      "posX": -43.529411764705856,
-      "posY": 211.17647058823528
-    },
-    {
       "id": "preset-lululemon",
       "name": "Lululemon 极简生活律动海报",
       "description": "糅合柔和肖像画色彩与大幅无边框负空间的律动美学单幅，完美释放静谧的力量。",
@@ -318,6 +228,6 @@
       }
     }
   ],
-  "updatedAt": "2026-06-22T02:35:54.521Z",
+  "updatedAt": "2026-06-22T02:36:09.531Z",
   "version": "4.0"
 }
