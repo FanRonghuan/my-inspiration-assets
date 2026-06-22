@@ -267,16 +267,8 @@
       "specs": "Layout: Full screen width, minimalist flex container. Background: #f6f6f6. Font: Custom heavy sans-serif for brand logo, clean high-contrast sans-serif for nav. Navigation: Sticky top header, capsule menu wrapper with `bg-white px-6 py-2 rounded-full shadow-sm` and hover transition scaling. Central illustration: Absolutely centered responsive image grid/canvas with subtle hover-interactive svg paths. Responsive specs: Mobile hidden navigation, simple hamburger menu button active on md-breakpoint. Close/Icon buttons with 40x40px interactive hit states.",
       "annotations": [
         {
-          "id": "custom-card-1782096409744-ann-vlm-1",
-          "num": 1,
-          "x": 6,
-          "y": 8,
-          "title": "汉堡菜单",
-          "desc": "左上角标志性的三条杠菜单按钮，不占空间且保持了页面的干净。"
-        },
-        {
           "id": "custom-card-1782096409744-ann-vlm-2",
-          "num": 2,
+          "num": 1,
           "x": 50,
           "y": 8,
           "title": "圆角胶囊导航",
@@ -284,7 +276,7 @@
         },
         {
           "id": "custom-card-1782096409744-ann-vlm-3",
-          "num": 3,
+          "num": 2,
           "x": 49,
           "y": 38,
           "title": "核心视觉插画",
@@ -292,7 +284,7 @@
         },
         {
           "id": "custom-card-1782096409744-ann-vlm-4",
-          "num": 4,
+          "num": 3,
           "x": 91,
           "y": 88,
           "title": "趣味角落点缀",
@@ -315,6 +307,6 @@
       }
     }
   ],
-  "updatedAt": "2026-06-22T02:47:11.282Z",
+  "updatedAt": "2026-06-22T02:47:27.996Z",
   "version": "4.0"
 }
