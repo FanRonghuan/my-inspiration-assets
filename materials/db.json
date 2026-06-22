@@ -175,8 +175,8 @@
       "name": "极简潮牌官方网站主页",
       "description": "页面采用温和的米白底色，以经典的黑心与环绕飞鸭插图作为核心，搭配悬浮胶囊导航，流露出随性且高级的潮流质感。",
       "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782054063667_paste_1782054063666.png",
-      "posX": 1563.7340825791734,
-      "posY": 37.88114140270301,
+      "posX": 1213.7340825791732,
+      "posY": -75.45219193063038,
       "isAnalyzed": true,
       "tags": [
         {
@@ -270,8 +270,8 @@
       "name": "极简潮流暗色巨型菜单",
       "description": "采用深暗色背景的多栏巨型导航菜单，配合大字号裁剪排版与趣味像素鸭子图标，右侧过渡到高对比的白圆角卡片内容区。",
       "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782056316387_paste_1782056316387.png",
-      "posX": 1782.297475172872,
-      "posY": 206.44453399640165,
+      "posX": 1398.9641418395386,
+      "posY": 63.111200663068246,
       "isAnalyzed": true,
       "tags": [
         {
@@ -333,6 +333,6 @@
       }
     }
   ],
-  "updatedAt": "2026-06-22T12:31:32.107Z",
+  "updatedAt": "2026-06-22T12:31:48.562Z",
   "version": "4.0"
 }
