@@ -225,9 +225,10 @@
         "shadows": "卡片边缘不设投影或极弱自然微阴影，保持整体扁平简洁风格。",
         "controls": "右上角微小的带下划线文本链接，摒弃传统按钮，减少视觉干扰。",
         "typography": "极粗巨型数字搭配纤细极小无衬线正文，通过字重与字号产生强烈对比。"
-      }
+      },
+      "websiteUrl": "https://www.landing.love/sites/iaslf/"
     }
   ],
-  "updatedAt": "2026-06-22T02:36:53.024Z",
+  "updatedAt": "2026-06-22T02:37:13.614Z",
   "version": "4.0"
 }
