@@ -91,57 +91,6 @@
       "posY": 237.39495798319336
     },
     {
-      "id": "preset-lululemon",
-      "name": "Lululemon 极简生活律动海报",
-      "description": "糅合柔和肖像画色彩与大幅无边框负空间的律动美学单幅，完美释放静谧的力量。",
-      "imageUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1000&q=80",
-      "isAnalyzed": true,
-      "websiteUrl": "https://www.lululemon.com",
-      "tags": [
-        {
-          "id": "t31",
-          "name": "柔和",
-          "category": "Aesthetic"
-        },
-        {
-          "id": "t32",
-          "name": "安静",
-          "category": "Aesthetic"
-        },
-        {
-          "id": "t33",
-          "name": "自然",
-          "category": "Aesthetic"
-        },
-        {
-          "id": "t34",
-          "name": "轻盈",
-          "category": "Aesthetic"
-        }
-      ],
-      "prompt": "一幅高雅的生活律动健身画报海报展示，半透明水彩肖像剪影，温润淡粉与日暮橘的无边框流体色块，Lululemon高定极简视觉规范，完美的大量留白排版，纤细无衬线文字引导，超凡脱俗的安静张力。",
-      "specs": "/* Tailwind 样式规范: 瑜伽轻盈微配方 */\n\n- 纸感画布: bg-[#FDFBF7] text-[#2D2926]\n- 大气留白: p-16 sm:p-24 flex flex-col justify-between min-h-[600px]\n- 律动图效: mix-blend-multiply opacity-85 hover:scale-105 duration-700 ease-out",
-      "uiSpecification": {
-        "background": "温润沙色轻柔画报纸底 (#FDFBF7 / 清雅水彩橘粉过渡晕散背景)",
-        "panels": "24px+ 超包容润唇超圆面板，画面主题与外边缘结合部采用完全零阻遏的无边大负空间（Negative Space）",
-        "shadows": "无任何渲染系卡片投影，纯度拉满，完全依赖色块重叠（正片叠底 Mix-Blend-Multiply）创造图像内部物理层深",
-        "controls": "隐藏式非实体逻辑，微悬浮柔和阻尼缩放（700ms Scale-up easing-out）微触发反馈",
-        "typography": "极纤细现代艺术无衬线大字（Tracking-widest 行宽扩展）+ 开阔清润空灵的大气排布布局"
-      },
-      "annotations": [
-        {
-          "id": "ann-l1",
-          "num": 1,
-          "x": 50,
-          "y": 50,
-          "title": "柔光层叠融合 (multiply soft blend)",
-          "desc": "高饱和色彩与细腻的肖像画画框通过正片叠底模式有机重组，在大气空灵的沙丘色海报留白中散发自发的运动能量。"
-        }
-      ],
-      "posX": 1137.6470588235295,
-      "posY": 92.94117647058823
-    },
-    {
       "id": "custom-card-1782094728217",
       "name": "极简大白空镜画廊落地页",
       "description": "采用非对称极简主义排版，中间为垂直滑动的窄幅画廊展示，两侧点缀巨型页码与索引，呈现高级时尚的画册质感。",
@@ -233,8 +182,8 @@
       "name": "极简圆角胶囊导航潮流落页",
       "description": "页面采用温润的浅灰白作为底色，中央以经典的黑色爱心和环绕飞鸭插图为视觉焦点，搭配极简大方的胶囊型导航栏，尽显街头潮牌的趣味与高街质感。",
       "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782096405914_paste_1782096405914.png",
-      "posX": 456.7911901611465,
-      "posY": -8.738221603559367,
+      "posX": 419.64833301828935,
+      "posY": -61.595364460702235,
       "isAnalyzed": true,
       "tags": [
         {
@@ -310,6 +259,6 @@
       }
     }
   ],
-  "updatedAt": "2026-06-22T11:15:07.156Z",
+  "updatedAt": "2026-06-22T11:15:17.725Z",
   "version": "4.0"
 }
