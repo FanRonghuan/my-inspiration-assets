@@ -6,7 +6,6 @@
       "description": "一家把说不清的设计氛围，具象化排版的精品图书小铺。暖色的纸张配以木质货架投影，令网页展示充满书卷的香气。",
       "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1000&q=80",
       "isAnalyzed": true,
-      "websiteUrl": "https://www.gutenberg.org",
       "tags": [
         {
           "id": "t1",
@@ -87,178 +86,253 @@
           "desc": "首屏和货架各自装在一块大圆角、微妙描边加投影的浅色浮板里，板与板之间露出底色——整张像几块叠放的厚纸板，分区不靠分割线。"
         }
       ],
-      "posX": -102.94117647058827,
-      "posY": 237.39495798319336
+      "posX": -52.764705882352956,
+      "posY": 44.35294117647061
     },
     {
-      "id": "custom-card-1782094728217",
-      "name": "极简大白空镜画廊落地页",
-      "description": "采用非对称极简主义排版，中间为垂直滑动的窄幅画廊展示，两侧点缀巨型页码与索引，呈现高级时尚的画册质感。",
-      "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782094725089_paste_1782094725089.png",
-      "posX": 636.3249029500599,
-      "posY": -136.93560125162077,
+      "id": "custom-card-1782053202826",
+      "name": "极简画廊摄影展示页",
+      "description": "采用柔和温润的浅灰白背景，搭配非对称三栏直角大图排版，营造出极具呼吸感与艺术画廊质感的线上摄影展厅。",
+      "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782053195480_paste_1782053195479.png",
+      "posX": 282.78445719082333,
+      "posY": -222.4802486915296,
       "isAnalyzed": true,
       "tags": [
         {
-          "id": "custom-card-1782094728217-tag-vlm-0",
+          "id": "custom-card-1782053202826-tag-vlm-0",
           "name": "极简主义",
           "category": "Aesthetic"
         },
         {
-          "id": "custom-card-1782094728217-tag-vlm-1",
-          "name": "大白留白",
+          "id": "custom-card-1782053202826-tag-vlm-1",
+          "name": "画廊网格排版",
           "category": "Aesthetic"
         },
         {
-          "id": "custom-card-1782094728217-tag-vlm-2",
-          "name": "垂直滚动",
-          "category": "Technical"
-        },
-        {
-          "id": "custom-card-1782094728217-tag-vlm-3",
-          "name": "时尚画册感",
+          "id": "custom-card-1782053202826-tag-vlm-2",
+          "name": "无衬线等宽字",
           "category": "Aesthetic"
         },
         {
-          "id": "custom-card-1782094728217-tag-vlm-4",
-          "name": "巨型排版",
+          "id": "custom-card-1782053202826-tag-vlm-3",
+          "name": "响应式布局",
           "category": "Technical"
         }
       ],
-      "prompt": "An ultra-minimalist design portfolio website landing page with a clean off-white background and spacious layout. In the center, a narrow vertical column displays creative project screenshots and editorial images in warm colors. On the far left, small clean sans-serif text lists navigation items. On the far right, a giant bold black page number displays '02 / 39'. Premium editorial typography, sleek high-end studio lighting, natural layout-focused composition, 8k render.",
-      "specs": "采用 Tailwind CSS 框架开发：整体背景设置为 bg-[#F4F4F4]，利用 flex 布局将屏幕分为三栏。左侧索引使用 text-xs tracking-wider 保持精致感；中间内容区域限制最大宽度，使用 gap-y-12 堆叠画廊卡片；右侧巨型页码使用 text-[12vw] font-black 形成强烈的视觉张力。\n- 微标定 [4]: 垂直卡片动效交互 — 丝滑连贯对接到下一项目内容，适合类似pdf版本的project展示",
+      "prompt": "A premium minimalist photographer portfolio web interface, very light warm gray background, asymmetrical three-column grid layout presenting editorial style portrait and cultural photography, sharp rectangular frames without borders, highly elegant small sans-serif font headers and footers, balanced spacing, high-end editorial gallery style, flat design, studio lighting.",
+      "specs": "使用 Tailwind CSS：背景色 `bg-[#F0F0F0]`，主文字 `text-black`。顶栏与底栏使用 `fixed` 或 `absolute` 定位，配合 `flex justify-between items-center px-8 py-6`。图片网格采用 `flex items-center justify-center gap-16` 实现非对称高度排列，图片使用 `rounded-none` 保持锋利直角。",
       "annotations": [
         {
-          "id": "custom-card-1782094728217-ann-vlm-1",
+          "id": "custom-card-1782053202826-ann-vlm-1",
           "num": 1,
-          "x": 3,
-          "y": 50,
-          "title": "左侧项目索引",
-          "desc": "极简的文本列表展示，低调不喧宾夺主，方便快速切换浏览。"
+          "x": 50,
+          "y": 5,
+          "title": "明暗模式切换",
+          "desc": "位于页面顶部的文字开关，方便用户在浅色和深色主题之间进行无缝切换。"
         },
         {
-          "id": "custom-card-1782094728217-ann-vlm-2",
+          "id": "custom-card-1782053202826-ann-vlm-2",
           "num": 2,
           "x": 50,
-          "y": 40,
-          "title": "中央窄幅画廊",
-          "desc": "垂直堆叠的项目精选大图，像翻阅纸质杂志般优雅流畅。"
-        },
-        {
-          "id": "custom-card-1782094728217-ann-vlm-3",
-          "num": 3,
-          "x": 95,
           "y": 48,
-          "title": "巨型焦点页码",
-          "desc": "占据右侧视觉中心的巨型数字，充当排版焦点并提示当前浏览进度。"
+          "title": "非对称主图展示",
+          "desc": "作为视觉核心的大图，下方配有简洁的作品名称与创作年份，直观大方。"
         },
         {
-          "id": "ann-pt-1782094847333",
+          "id": "custom-card-1782053202826-ann-vlm-3",
+          "num": 3,
+          "x": 50,
+          "y": 97,
+          "title": "视图模式切换",
+          "desc": "底部居中的模式切换按钮，可在列表视图和网格视图之间自由切换。"
+        },
+        {
+          "id": "custom-card-1782053202826-ann-vlm-4",
           "num": 4,
-          "x": 49.59429136871887,
-          "y": 59.8766107813757,
-          "title": "垂直卡片动效交互",
-          "desc": "丝滑连贯对接到下一项目内容，适合类似pdf版本的project展示"
+          "x": 94,
+          "y": 5,
+          "title": "极简导航链接",
+          "desc": "将常用的联系方式与菜单收纳在右上角，保持整个界面的开阔与干净。"
         }
       ],
       "colorPalette": [
-        "#F4F4F4",
-        "#0D0D0D",
-        "#E04F33",
-        "#D2BCA6",
-        "#FFFFFF"
+        "#F0F0F0",
+        "#000000",
+        "#666666",
+        "#9A8B74",
+        "#405B34"
       ],
       "uiSpecification": {
-        "background": "纯净开阔的微暖白底色，营造呼吸感与高级艺术画廊氛围。",
-        "panels": "无边框与面板分割，纯粹利用大面积留白划分视觉区域。",
-        "shadows": "卡片边缘不设投影或极弱自然微阴影，保持整体扁平简洁风格。",
-        "controls": "右上角微小的带下划线文本链接，摒弃传统按钮，减少视觉干扰。",
-        "typography": "极粗巨型数字搭配纤细极小无衬线正文，通过字重与字号产生强烈对比。"
-      },
-      "websiteUrl": "https://www.landing.love/sites/iaslf/"
+        "background": "温润的暖灰白色背景（#F0F0F0），呈现高雅柔和的纸张质感。",
+        "panels": "无边框与圆角的直角摄影图片容器，还原传统相片冲印的纯粹观感。",
+        "shadows": "全扁平化无投影设计，依靠色块对比和大量的留白来建立层次感。",
+        "controls": "极简的纯文字切换控件，搭配超细线描边的圆形小图标，减少视觉干扰。",
+        "typography": "采用极细的等宽无衬线字体，字号小巧克制，确保阅读焦点的纯粹。"
+      }
     },
     {
-      "id": "custom-card-1782096409744",
-      "name": "极简圆角胶囊导航潮流落页",
-      "description": "页面采用温润的浅灰白作为底色，中央以经典的黑色爱心和环绕飞鸭插图为视觉焦点，搭配极简大方的胶囊型导航栏，尽显街头潮牌的趣味与高街质感。",
-      "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782096405914_paste_1782096405914.png",
-      "posX": 445.3626187325751,
-      "posY": -30.1667930321308,
+      "id": "custom-card-1782054067207",
+      "name": "极简潮牌官方网站主页",
+      "description": "页面采用温和的米白底色，以经典的黑心与环绕飞鸭插图作为核心，搭配悬浮胶囊导航，流露出随性且高级的潮流质感。",
+      "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782054063667_paste_1782054063666.png",
+      "posX": 1563.7340825791734,
+      "posY": 37.88114140270301,
       "isAnalyzed": true,
       "tags": [
         {
-          "id": "custom-card-1782096409744-tag-vlm-0",
-          "name": "极简主义",
+          "id": "custom-card-1782054067207-tag-vlm-0",
+          "name": "极简设计",
           "category": "Aesthetic"
         },
         {
-          "id": "custom-card-1782096409744-tag-vlm-1",
-          "name": "街头潮牌风格",
+          "id": "custom-card-1782054067207-tag-vlm-1",
+          "name": "潮流街头",
           "category": "Aesthetic"
         },
         {
-          "id": "custom-card-1782096409744-tag-vlm-2",
-          "name": "胶囊导航栏",
+          "id": "custom-card-1782054067207-tag-vlm-2",
+          "name": "胶囊导航",
           "category": "Technical"
         },
         {
-          "id": "custom-card-1782096409744-tag-vlm-3",
-          "name": "响应式布局",
-          "category": "Technical"
+          "id": "custom-card-1782054067207-tag-vlm-3",
+          "name": "趣味插画",
+          "category": "Aesthetic"
         },
         {
-          "id": "custom-card-1782096409744-tag-vlm-4",
-          "name": "趣味动效插画",
+          "id": "custom-t-1782055138257",
+          "name": "鼠标跟随交互",
           "category": "Aesthetic"
         }
       ],
-      "prompt": "A minimalist streetwear brand website landing page UI, ultra-clean warm white background, center features a black bold heart logo surrounded by a circular flying pattern of cute retro-style mallard ducks, bold whimsical sans-serif typography reading 'HUMAN MADE Inc.', floating top pill-shaped navigation bar with dark text, extremely clean layout, high-end lookbook feel, studio lighting, high resolution, 8k --ar 16:9",
-      "specs": "Layout: Full screen width, minimalist flex container. Background: #f6f6f6. Font: Custom heavy sans-serif for brand logo, clean high-contrast sans-serif for nav. Navigation: Sticky top header, capsule menu wrapper with `bg-white px-6 py-2 rounded-full shadow-sm` and hover transition scaling. Central illustration: Absolutely centered responsive image grid/canvas with subtle hover-interactive svg paths. Responsive specs: Mobile hidden navigation, simple hamburger menu button active on md-breakpoint. Close/Icon buttons with 40x40px interactive hit states.",
+      "prompt": "A minimalist streetwear brand landing page with a warm off-white background, featuring a centered large black heart icon surrounded by cartoon mallard ducks flying in a circle, bold playful sans-serif typography below reading 'HUMAN MADE Inc.', a floating white pill-shaped navigation bar at the top, sleek interface design, studio lighting, vector graphics style --ar 16:9",
+      "specs": "Layout: Background is styled with bg-[#f7f7f7] to create a clean, modern atmosphere. Navigation: A fixed header featuring a container with justify-between, housing a white pill capsule menu (bg-white, rounded-full, px-6, py-3, shadow-sm). Center stage: Flex column centering the graphic and typography with min-h-[85vh] and items-center. Typography: Text elements utilize tracking-widest, with bold uppercase branding. Icons: Simple outline SVGs are wrapped in square-rounded control boundaries.\n- 微标定 [5]: 中部插画爱心-交互 — 中部爱心元素有鼠标跟随移动，只要快速移动爱心即可触发周围鸟群从爱心后面向画面四周飞出，很有趣",
       "annotations": [
         {
-          "id": "custom-card-1782096409744-ann-vlm-2",
+          "id": "custom-card-1782054067207-ann-vlm-1",
           "num": 1,
           "x": 50,
           "y": 8,
-          "title": "圆角胶囊导航",
-          "desc": "白色精致的悬浮胶囊导航栏，将常用分类整齐收纳，极富设计细节。"
+          "title": "胶囊悬浮导航",
+          "desc": "集中收纳主要板块，白底黑字在浅灰背景中格外醒目，方便快速切换。"
         },
         {
-          "id": "custom-card-1782096409744-ann-vlm-3",
+          "id": "custom-card-1782054067207-ann-vlm-2",
           "num": 2,
           "x": 49,
-          "y": 38,
-          "title": "核心视觉插画+鼠标跟随交互",
-          "desc": "页面中心的黑色大爱心与飞鸟环绕图案，点明潮牌个性，非常吸睛。鼠标hover后移开中心部分的爱心即出现飞鸟从爱心后向四周飞出（契合整体飞鸟主题）",
-          "category": "手绘交互",
-          "edited": true,
-          "starred": true
+          "y": 45,
+          "title": "核心插图视觉",
+          "desc": "黑心与旋转飞鸭图形，配合品牌粗字，一目了然地传达出强烈的品牌调性。"
         },
         {
-          "id": "custom-card-1782096409744-ann-vlm-4",
+          "id": "custom-card-1782054067207-ann-vlm-3",
           "num": 3,
           "x": 91,
-          "y": 88,
-          "title": "趣味角落点缀",
-          "desc": "右下角日文文字配上飞翔的小鸭，在空旷的留白中增添一抹俏皮。"
+          "y": 8,
+          "title": "辅助操作键",
+          "desc": "圆润的语言切换与联系邮箱图标，设计克制，给右上角留出呼吸感。"
+        },
+        {
+          "id": "custom-card-1782054067207-ann-vlm-4",
+          "num": 4,
+          "x": 90,
+          "y": 89,
+          "title": "右下趣味点缀",
+          "desc": "日文字样配上迷你飞鸭图标，在视觉边缘补充了品牌故事细节与趣味性。"
+        },
+        {
+          "id": "ann-pt-1782054247428",
+          "num": 5,
+          "x": 65.51322419365546,
+          "y": 33.0079960693362,
+          "title": "中部插画爱心-交互",
+          "desc": "中部爱心元素有鼠标跟随移动，只要快速移动爱心即可触发周围鸟群从爱心后面向画面四周飞出，很有趣",
+          "starred": true
         }
       ],
       "colorPalette": [
-        "#F6F6F6",
-        "#000000",
-        "#5F8575",
-        "#DDB87E",
-        "#5C87B2"
+        "#F7F7F7",
+        "#111111",
+        "#FFFFFF",
+        "#638A61",
+        "#D1A375"
       ],
       "uiSpecification": {
-        "background": "温润柔和的浅灰白底色，给整体画面带来干净通透、不刺眼的视觉感受。",
-        "panels": "除导航栏外，整页采用大面积留白，没有复杂的卡片堆叠，营造呼吸感。",
-        "shadows": "仅在顶部的圆形悬浮小图标上保留极弱的扁平投影，保持画面的极简干净。",
-        "controls": "顶部正中为白底圆角胶囊导航，配合两侧小巧扁平的图标按钮，利落又好点。",
-        "typography": "品牌名采用黑白高对比的粗体手写感无衬线体，导航菜单则使用小巧清晰的等宽大写字母。"
+        "background": "温和温润的米白纯色底，呈现如同纸张一般的自然高级质感。",
+        "panels": "顶部采用纯白圆角胶囊状面板，搭配极细的浅灰描边以体现悬浮层次。",
+        "shadows": "仅在导航条和右侧功能键上使用了极其柔和的微弱投影，保持界面轻巧。",
+        "controls": "圆形与圆角矩形功能按钮，图形简练，提供舒适而清晰的点击交互体验。",
+        "typography": "品牌名使用粗犷个性的非标准英文字体，导航菜单则使用现代精致的等宽无衬线体。"
+      }
+    },
+    {
+      "id": "custom-card-1782056319120",
+      "name": "极简潮流暗色巨型菜单",
+      "description": "采用深暗色背景的多栏巨型导航菜单，配合大字号裁剪排版与趣味像素鸭子图标，右侧过渡到高对比的白圆角卡片内容区。",
+      "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782056316387_paste_1782056316387.png",
+      "posX": 1782.297475172872,
+      "posY": 206.44453399640165,
+      "isAnalyzed": true,
+      "tags": [
+        {
+          "id": "custom-card-1782056319120-tag-vlm-0",
+          "name": "巨型导航菜单",
+          "category": "Technical"
+        },
+        {
+          "id": "custom-card-1782056319120-tag-vlm-1",
+          "name": "街头潮流风格",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "custom-card-1782056319120-tag-vlm-2",
+          "name": "高对比拼色",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "custom-card-1782056319120-tag-vlm-3",
+          "name": "趣味像素插画",
+          "category": "Aesthetic"
+        }
+      ],
+      "prompt": "A trendy streetwear brand navigation overlay UI, split-screen layout. Left side is dark charcoal gray with bold, oversized sans-serif typography, truncated text featuring small pixelated flying mallard ducks. Right side is a minimal light-gray rounded corner card displaying black Japanese typography. Circular white button controls on top right, clean vector style, modern fashion aesthetic, flat layout design.",
+      "specs": "Layout split into a 70% dark mode navigation grid (#1A1A1A) and a 30% light mode content display (#F5F5F5). Left panel uses columns with dense padding-top: py-16, space-x-12. Bold header texts sized at text-5xl with tracking-tight. Right-side card has rounded-3xl (32px) and clean vertical padding. Navigation items hover-state decorated with absolute positioned small asset icons.\n- 微标定 [4]: 文字呈现交互 — 主题与鸟有关 所以乱码也都是小鸟插画 最后呈现文字",
+      "annotations": [
+        {
+          "id": "custom-card-1782056319120-ann-vlm-1",
+          "num": 1,
+          "x": 35,
+          "y": 28,
+          "title": "多栏巨型链接区",
+          "desc": "超大加粗排版清晰分类导航，局部字母用像素飞行鸭代替，增加玩味感。"
+        },
+        {
+          "id": "ann-pt-1782056437048",
+          "num": 2,
+          "x": 10.441026971347522,
+          "y": 25.83408350179367,
+          "title": "文字呈现交互",
+          "desc": "主题与鸟有关 所以乱码也都是小鸟插画 最后呈现文字",
+          "starred": true
+        }
+      ],
+      "websiteUrl": "https://humanmade.co.jp/projects/",
+      "colorPalette": [
+        "#1A1A1A",
+        "#F5F5F5",
+        "#FFFFFF",
+        "#BF8F54",
+        "#3A80A0"
+      ],
+      "uiSpecification": {
+        "background": "深哑光炭黑色搭配右侧亮灰白块面对比",
+        "panels": "右侧主内容区采用32px大圆角无边框浅色卡片",
+        "shadows": "纯扁平无阴影设计，依靠色彩纯度与极高明暗对比区分层级",
+        "controls": "顶部双圆形白色胶囊按钮，配以极细黑色图标与文字",
+        "typography": "左侧为超粗无衬线大写英文字体，右侧为大号粗体黑色日文字体"
       }
     }
   ],
-  "updatedAt": "2026-06-22T11:16:25.202Z",
+  "updatedAt": "2026-06-22T12:31:13.534Z",
   "version": "4.0"
 }
