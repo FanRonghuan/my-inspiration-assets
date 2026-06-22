@@ -1,0 +1,323 @@
+{
+  "cards": [
+    {
+      "id": "preset-books",
+      "name": "BOOKS 奶油书亭·拟物货架首页",
+      "description": "一家把说不清的设计氛围，具象化排版的精品图书小铺。暖色的纸张配以木质货架投影，令网页展示充满书卷的香气。",
+      "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1000&q=80",
+      "isAnalyzed": true,
+      "websiteUrl": "https://www.gutenberg.org",
+      "tags": [
+        {
+          "id": "t1",
+          "name": "柔和",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t2",
+          "name": "精致",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t3",
+          "name": "安静",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t4",
+          "name": "拟物货架",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t5",
+          "name": "轻盈书页",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t6",
+          "name": "双面阴影",
+          "category": "Technical"
+        },
+        {
+          "id": "t7",
+          "name": "温暖奶油色调",
+          "category": "Aesthetic"
+        }
+      ],
+      "prompt": "一幅高保真图书陈列单元界面，奶油米色底纹背景，上方展示立体透视的白橡木搁板搁架组合，排列几本写实的画册 and 艺术书封面。暖白色磨砂衬板，带有极其逼真的物理接触微弱阴影（Contact Shadow），高雅极简的绿色描边标牌引导文本，宁静舒缓的灯光，文艺静奢风格，4K无瑕画质。",
+      "specs": "/* Tailwind 样式规范: 奶油书亭 skeuomorphic shelf */\n\n- 背景色: bg-[#F4F1EA] text-[#1B2D26]\n- 双重投影卡片: shadow-[0_8px_30px_rgb(0,0,0,0.04),inset_0_1px_0_rgba(255,255,255,0.6)]\n- 物理拟物搁架: border-b-4 border-[#E6E1D4] shadow-[0_4px_12px_-2px_rgba(27,45,38,0.06)]\n- 文本标定: font-serif uppercase tracking-widest text-[11px] text-[#A69F8F]",
+      "uiSpecification": {
+        "background": "温暖米色纸质底纹 (#F4F1EA / 高级柔和不反光浅沙黄底)",
+        "panels": "16px 大圆角重叠面板，多级卡片层叠结构，板与板之间直接露出底色，去除冗余分割线",
+        "shadows": "4% 低对比度超软自然扩散接触投影 + Skeuomorphic 物理搁板底板微内阴影",
+        "controls": "商品封面本身作为高保真响应式货架网格交互按键，上方覆盖物理墨色加粗圆角纸质标签",
+        "typography": "Serif 罗马复古衬线大标题 + 极细单色全大写等宽 (Monospace) 标定说明行"
+      },
+      "annotations": [
+        {
+          "id": "ann-b1",
+          "num": 1,
+          "x": 50,
+          "y": 15,
+          "title": "奶油纸面底色 (warm cream UI canvas)",
+          "desc": "整贴铺一层奶油米白底，文字用近黑的墨绿而不是纯黑——像印在未漂白的纸上，电商界面立刻有了书页的温度。"
+        },
+        {
+          "id": "ann-b2",
+          "num": 2,
+          "x": 60,
+          "y": 55,
+          "title": "拟物搁板投影 (skeuomorphic shelf ledge)",
+          "desc": "商品不排成平面网格，而是一本本书站在一条带厚度的搁板上，书脚落下温柔的接触阴影——货架的物理感让浏览变成逛书店。"
+        },
+        {
+          "id": "ann-b3",
+          "num": 3,
+          "x": 50,
+          "y": 40,
+          "title": "封面即卡片 (artwork-as-card)",
+          "desc": "书封不装进任何带边框的卡片容器，封面本身就是可点击单元——商品自带的视觉设计直接成为界面的色彩和灵感来源。"
+        },
+        {
+          "id": "ann-b4",
+          "num": 4,
+          "x": 15,
+          "y": 35,
+          "title": "圆角面板叠层 (stacked rounded panels)",
+          "desc": "首屏和货架各自装在一块大圆角、微妙描边加投影的浅色浮板里，板与板之间露出底色——整张像几块叠放的厚纸板，分区不靠分割线。"
+        }
+      ],
+      "posX": 5.882352941176464,
+      "posY": 62.94117647058823
+    },
+    {
+      "id": "preset-mosaic",
+      "name": "Mosaic 纵轴滑卡分屏交互落地页",
+      "description": "通过极富呼吸感的分栏网格，将创新的纵向层叠滑动视窗（Vertical Carousel）与精密自适应网格完美交织的落地首屏。主视觉的纵向滑阅带来了极强的纵深成长感（纵生感）。",
+      "imageUrl": "https://images.unsplash.com/photo-1618005182384-a83a8bd57fbe?auto=format&fit=crop&w=1000&q=80",
+      "isAnalyzed": true,
+      "websiteUrl": "https://www.rezo-zero.com",
+      "tags": [
+        {
+          "id": "t11",
+          "name": "纵生感交互",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t12",
+          "name": "非对称双栏",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t13",
+          "name": "瑞士网格控制",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t14",
+          "name": "极简等宽印记",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t15",
+          "name": "纵轴滚动吸附",
+          "category": "Technical"
+        },
+        {
+          "id": "t16",
+          "name": "12列流动格栅",
+          "category": "Technical"
+        },
+        {
+          "id": "t17",
+          "name": "1px 透明透镜描边",
+          "category": "Technical"
+        }
+      ],
+      "prompt": "A premium, ultra-modern portfolio homepage interface. The main focus is an interactive device container demonstrating custom applications via layered vertical card sliders which snap into placement dynamically. The surrounding page has asymmetrical 12-column layout grid structures, ultra-clean monospace header metrics, elegant sans-serif lettering with generous line spacing, bone-white slate grey interface balance, exceptionally tactile depth.",
+      "specs": "/* Tailwind 样式规范: Mosaic 纵轴滑卡 */\n\n- 纵向滑轴滑格: flex flex-col gap-6 overflow-y-auto h-[480px] snap-y snap-mandatory scroll-smooth\n- 视窗单元卡片: snap-start shrink-0 rounded-2xl border border-neutral-200/50 hover:border-emerald-800/20 bg-white/95 p-6 shadow-xs transition-transform duration-300\n- 格期网格对齐: grid grid-cols-12 divide-x divide-zinc-200/50 gap-4 sm:gap-8\n- 高阶字体配比: font-sans tracking-wide leading-relaxed font-normal text-zinc-900",
+      "uiSpecification": {
+        "background": "清冷骨面平铺浅灰纸底 (#FAF9F6 / 拼贴感杂志级清爽大底白)",
+        "panels": "24px 超大圆角容器面板布局，1px 极精细半透明骨骼色抗噪边框",
+        "shadows": "结合 24px 高斯背景磨砂模糊 + 边缘深度 0.02 绝无晕散的超轻悬空物理背影",
+        "controls": "垂直滑轴自动吸附叠卡轮播（Snap-Mandatory Vertical Carousel）+ 模块化胶囊微徽章",
+        "typography": "现代无衬线 Inter 变体标题体系 + 右翼角数 Uniform-sized Mono 等距大小写边缘刻度线格式对准"
+      },
+      "annotations": [
+        {
+          "id": "ann-m1",
+          "num": 1,
+          "x": 50,
+          "y": 45,
+          "title": "纵轴级立体叠堆滑动流 (Vertical Carousel)",
+          "desc": "摒弃了常见的左右横向滑块或者走马灯，采用自上而下的纵向吸附卡片。向上滚动将展现极具物理接触质感的滑动吸附，为中央视觉视窗赋予极强的向上「物语纵生感」。"
+        },
+        {
+          "id": "ann-m2",
+          "num": 2,
+          "x": 15,
+          "y": 35,
+          "title": "非对称12列现代网格布局 (Asymmetrical CSS Grid)",
+          "desc": "页面以 12 栅格进行严格分块：左/右两翼留空并呈等宽排列，信息各归其位，营造出如同杂志版面般的开阔留白与呼吸感。"
+        },
+        {
+          "id": "ann-m3",
+          "num": 3,
+          "x": 82,
+          "y": 65,
+          "title": "等距字符功能行 (Monospace Metric line)",
+          "desc": "版本注释、版权落款及当前索引均为 Uniform-sized monospace 全大写字，像物理仪器的精细刻度盘一般对齐在网格边缘，增强了科技细节感知，而不会干扰主标题格式。"
+        },
+        {
+          "id": "ann-m4",
+          "num": 4,
+          "x": 48,
+          "y": 85,
+          "title": "大纵深边缘触觉微阴影 (Fluid Contact Shadow)",
+          "desc": "卡片边缘采用 1px 微显色边框结合极低不透明度的扩散阴影，使中轴叠片悬浮于底纸纸感之上，重塑精细的物理界面层叠感。"
+        }
+      ],
+      "posX": 308.2352941176471,
+      "posY": 241.76470588235293
+    },
+    {
+      "id": "preset-lululemon",
+      "name": "Lululemon 极简生活律动海报",
+      "description": "糅合柔和肖像画色彩与大幅无边框负空间的律动美学单幅，完美释放静谧的力量。",
+      "imageUrl": "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1000&q=80",
+      "isAnalyzed": true,
+      "websiteUrl": "https://www.lululemon.com",
+      "tags": [
+        {
+          "id": "t31",
+          "name": "柔和",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t32",
+          "name": "安静",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t33",
+          "name": "自然",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t34",
+          "name": "轻盈",
+          "category": "Aesthetic"
+        }
+      ],
+      "prompt": "一幅高雅的生活律动健身画报海报展示，半透明水彩肖像剪影，温润淡粉与日暮橘的无边框流体色块，Lululemon高定极简视觉规范，完美的大量留白排版，纤细无衬线文字引导，超凡脱俗的安静张力。",
+      "specs": "/* Tailwind 样式规范: 瑜伽轻盈微配方 */\n\n- 纸感画布: bg-[#FDFBF7] text-[#2D2926]\n- 大气留白: p-16 sm:p-24 flex flex-col justify-between min-h-[600px]\n- 律动图效: mix-blend-multiply opacity-85 hover:scale-105 duration-700 ease-out",
+      "uiSpecification": {
+        "background": "温润沙色轻柔画报纸底 (#FDFBF7 / 清雅水彩橘粉过渡晕散背景)",
+        "panels": "24px+ 超包容润唇超圆面板，画面主题与外边缘结合部采用完全零阻遏的无边大负空间（Negative Space）",
+        "shadows": "无任何渲染系卡片投影，纯度拉满，完全依赖色块重叠（正片叠底 Mix-Blend-Multiply）创造图像内部物理层深",
+        "controls": "隐藏式非实体逻辑，微悬浮柔和阻尼缩放（700ms Scale-up easing-out）微触发反馈",
+        "typography": "极纤细现代艺术无衬线大字（Tracking-widest 行宽扩展）+ 开阔清润空灵的大气排布布局"
+      },
+      "annotations": [
+        {
+          "id": "ann-l1",
+          "num": 1,
+          "x": 50,
+          "y": 50,
+          "title": "柔光层叠融合 (multiply soft blend)",
+          "desc": "高饱和色彩与细腻的肖像画画框通过正片叠底模式有机重组，在大气空灵的沙丘色海报留白中散发自发的运动能量。"
+        }
+      ],
+      "posX": 920,
+      "posY": 220
+    },
+    {
+      "id": "custom-card-1782094728217",
+      "name": "极简大白空镜画廊落地页",
+      "description": "采用非对称极简主义排版，中间为垂直滑动的窄幅画廊展示，两侧点缀巨型页码与索引，呈现高级时尚的画册质感。",
+      "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782094725089_paste_1782094725089.png",
+      "posX": 619.1820458072028,
+      "posY": -36.93560125162074,
+      "isAnalyzed": true,
+      "tags": [
+        {
+          "id": "custom-card-1782094728217-tag-vlm-0",
+          "name": "极简主义",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "custom-card-1782094728217-tag-vlm-1",
+          "name": "大白留白",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "custom-card-1782094728217-tag-vlm-2",
+          "name": "垂直滚动",
+          "category": "Technical"
+        },
+        {
+          "id": "custom-card-1782094728217-tag-vlm-3",
+          "name": "时尚画册感",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "custom-card-1782094728217-tag-vlm-4",
+          "name": "巨型排版",
+          "category": "Technical"
+        }
+      ],
+      "prompt": "An ultra-minimalist design portfolio website landing page with a clean off-white background and spacious layout. In the center, a narrow vertical column displays creative project screenshots and editorial images in warm colors. On the far left, small clean sans-serif text lists navigation items. On the far right, a giant bold black page number displays '02 / 39'. Premium editorial typography, sleek high-end studio lighting, natural layout-focused composition, 8k render.",
+      "specs": "采用 Tailwind CSS 框架开发：整体背景设置为 bg-[#F4F4F4]，利用 flex 布局将屏幕分为三栏。左侧索引使用 text-xs tracking-wider 保持精致感；中间内容区域限制最大宽度，使用 gap-y-12 堆叠画廊卡片；右侧巨型页码使用 text-[12vw] font-black 形成强烈的视觉张力。\n- 微标定 [4]: 垂直卡片动效交互 — 丝滑连贯对接到下一项目内容，适合类似pdf版本的project展示",
+      "annotations": [
+        {
+          "id": "custom-card-1782094728217-ann-vlm-1",
+          "num": 1,
+          "x": 3,
+          "y": 50,
+          "title": "左侧项目索引",
+          "desc": "极简的文本列表展示，低调不喧宾夺主，方便快速切换浏览。"
+        },
+        {
+          "id": "custom-card-1782094728217-ann-vlm-2",
+          "num": 2,
+          "x": 50,
+          "y": 40,
+          "title": "中央窄幅画廊",
+          "desc": "垂直堆叠的项目精选大图，像翻阅纸质杂志般优雅流畅。"
+        },
+        {
+          "id": "custom-card-1782094728217-ann-vlm-3",
+          "num": 3,
+          "x": 95,
+          "y": 48,
+          "title": "巨型焦点页码",
+          "desc": "占据右侧视觉中心的巨型数字，充当排版焦点并提示当前浏览进度。"
+        },
+        {
+          "id": "ann-pt-1782094847333",
+          "num": 4,
+          "x": 49.59429136871887,
+          "y": 59.8766107813757,
+          "title": "垂直卡片动效交互",
+          "desc": "丝滑连贯对接到下一项目内容，适合类似pdf版本的project展示"
+        }
+      ],
+      "colorPalette": [
+        "#F4F4F4",
+        "#0D0D0D",
+        "#E04F33",
+        "#D2BCA6",
+        "#FFFFFF"
+      ],
+      "uiSpecification": {
+        "background": "纯净开阔的微暖白底色，营造呼吸感与高级艺术画廊氛围。",
+        "panels": "无边框与面板分割，纯粹利用大面积留白划分视觉区域。",
+        "shadows": "卡片边缘不设投影或极弱自然微阴影，保持整体扁平简洁风格。",
+        "controls": "右上角微小的带下划线文本链接，摒弃传统按钮，减少视觉干扰。",
+        "typography": "极粗巨型数字搭配纤细极小无衬线正文，通过字重与字号产生强烈对比。"
+      }
+    }
+  ],
+  "updatedAt": "2026-06-22T02:33:09.135Z",
+  "version": "4.0"
+}
