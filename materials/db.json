@@ -242,8 +242,27 @@
         "controls": "顶部双圆形白色胶囊按钮，配以极细黑色图标与文字",
         "typography": "左侧为超粗无衬线大写英文字体，右侧为大号粗体黑色日文字体"
       }
+    },
+    {
+      "id": "custom-card-1782190826631",
+      "name": "剪贴板快照_13-00-26",
+      "description": "导入的新截图。请双击打开详细面板并启动「VLM美学深度转译」以萃取 AIGC 画笔和核心开发参数。",
+      "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782190824670_paste_1782190824669.png",
+      "posX": 476.7518237564219,
+      "posY": 332.7518237564219,
+      "isAnalyzed": false,
+      "tags": [
+        {
+          "id": "custom-card-1782190826631-tag-new",
+          "name": "待高级分析",
+          "category": "Custom"
+        }
+      ],
+      "prompt": "",
+      "specs": "",
+      "annotations": []
     }
   ],
-  "updatedAt": "2026-06-23T05:00:26.638Z",
+  "updatedAt": "2026-06-23T05:00:31.012Z",
   "version": "4.0"
 }
