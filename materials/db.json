@@ -308,6 +308,7 @@
           "edited": true
         }
       ],
+      "websiteUrl": "https://shopify.design/?ref=landing.love#hero-artifact",
       "colorPalette": [
         "#FAF9F6",
         "#1B2D26",
@@ -324,6 +325,6 @@
       }
     }
   ],
-  "updatedAt": "2026-06-23T05:07:32.113Z",
+  "updatedAt": "2026-06-23T05:07:57.352Z",
   "version": "4.0"
 }
