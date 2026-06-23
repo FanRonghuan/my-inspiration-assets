@@ -294,7 +294,8 @@
           "title": "横轴卡片",
           "desc": "采用上下轻滑叠层卡片的滑动轮播，带有令人舒适的滑动触感。左右依次浮现品牌核心视觉图片，适合替换feed流，更有趣生动或用于某种品牌设计logo呈现形式",
           "category": "交互动作",
-          "edited": true
+          "edited": true,
+          "starred": true
         },
         {
           "id": "custom-card-1782191055833-ann-vlm-3",
@@ -323,6 +324,6 @@
       }
     }
   ],
-  "updatedAt": "2026-06-23T05:07:26.356Z",
+  "updatedAt": "2026-06-23T05:07:32.113Z",
   "version": "4.0"
 }
