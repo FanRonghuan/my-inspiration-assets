@@ -1,6 +1,95 @@
 {
   "cards": [
     {
+      "id": "preset-books",
+      "name": "BOOKS 奶油书亭·拟物货架首页",
+      "description": "一家把说不清的设计氛围，具象化排版的精品图书小铺。暖色的纸张配以木质货架投影，令网页展示充满书卷的香气。",
+      "imageUrl": "https://images.unsplash.com/photo-1512820790803-83ca734da794?auto=format&fit=crop&w=1000&q=80",
+      "isAnalyzed": true,
+      "tags": [
+        {
+          "id": "t1",
+          "name": "柔和",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t2",
+          "name": "精致",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t3",
+          "name": "安静",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t4",
+          "name": "拟物货架",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t5",
+          "name": "轻盈书页",
+          "category": "Aesthetic"
+        },
+        {
+          "id": "t6",
+          "name": "双面阴影",
+          "category": "Technical"
+        },
+        {
+          "id": "t7",
+          "name": "温暖奶油色调",
+          "category": "Aesthetic"
+        }
+      ],
+      "prompt": "一幅高保真图书陈列单元界面，奶油米色底纹背景，上方展示立体透视的白橡木搁板搁架组合，排列几本写实的画册 and 艺术书封面。暖白色磨砂衬板，带有极其逼真的物理接触微弱阴影（Contact Shadow），高雅极简的绿色描边标牌引导文本，宁静舒缓的灯光，文艺静奢风格，4K无瑕画质。",
+      "specs": "/* Tailwind 样式规范: 奶油书亭 skeuomorphic shelf */\n\n- 背景色: bg-[#F4F1EA] text-[#1B2D26]\n- 双重投影卡片: shadow-[0_8px_30px_rgb(0,0,0,0.04),inset_0_1px_0_rgba(255,255,255,0.6)]\n- 物理拟物搁架: border-b-4 border-[#E6E1D4] shadow-[0_4px_12px_-2px_rgba(27,45,38,0.06)]\n- 文本标定: font-serif uppercase tracking-widest text-[11px] text-[#A69F8F]",
+      "uiSpecification": {
+        "background": "温暖米色纸质底纹 (#F4F1EA / 高级柔和不反光浅沙黄底)",
+        "panels": "16px 大圆角重叠面板，多级卡片层叠结构，板与板之间直接露出底色，去除冗余分割线",
+        "shadows": "4% 低对比度超软自然扩散接触投影 + Skeuomorphic 物理搁板底板微内阴影",
+        "controls": "商品封面本身作为高保真响应式货架网格交互按键，上方覆盖物理墨色加粗圆角纸质标签",
+        "typography": "Serif 罗马复古衬线大标题 + 极细单色全大写等宽 (Monospace) 标定说明行"
+      },
+      "annotations": [
+        {
+          "id": "ann-b1",
+          "num": 1,
+          "x": 50,
+          "y": 15,
+          "title": "奶油纸面底色 (warm cream UI canvas)",
+          "desc": "整贴铺一层奶油米白底，文字用近黑的墨绿而不是纯黑——像印在未漂白的纸上，电商界面立刻有了书页的温度。"
+        },
+        {
+          "id": "ann-b2",
+          "num": 2,
+          "x": 60,
+          "y": 55,
+          "title": "拟物搁板投影 (skeuomorphic shelf ledge)",
+          "desc": "商品不排成平面网格，而是一本本书站在一条带厚度的搁板上，书脚落下温柔的接触阴影——货架的物理感让浏览变成逛书店。"
+        },
+        {
+          "id": "ann-b3",
+          "num": 3,
+          "x": 50,
+          "y": 40,
+          "title": "封面即卡片 (artwork-as-card)",
+          "desc": "书封不装进任何带边框的卡片容器，封面本身就是可点击单元——商品自带的视觉设计直接成为界面的色彩和灵感来源。"
+        },
+        {
+          "id": "ann-b4",
+          "num": 4,
+          "x": 15,
+          "y": 35,
+          "title": "圆角面板叠层 (stacked rounded panels)",
+          "desc": "首屏和货架各自装在一块大圆角、微妙描边加投影的浅色浮板里，板与板之间露出底色——整张像几块叠放的厚纸板，分区不靠分割线。"
+        }
+      ],
+      "posX": -52.764705882352956,
+      "posY": 44.35294117647061
+    },
+    {
       "id": "custom-card-1782053202826",
       "name": "极简画廊摄影展示页",
       "description": "采用柔和温润的浅灰白背景，搭配非对称三栏直角大图排版，营造出极具呼吸感与艺术画廊质感的线上摄影展厅。",
@@ -242,164 +331,8 @@
         "controls": "顶部双圆形白色胶囊按钮，配以极细黑色图标与文字",
         "typography": "左侧为超粗无衬线大写英文字体，右侧为大号粗体黑色日文字体"
       }
-    },
-    {
-      "id": "custom-card-1782191055833",
-      "name": "垂直滑动叠卡极简落面板",
-      "description": "这款卡片设计采用垂直方向的堆叠卡包作为中央主视觉，浏览轻量连贯。两翼留出自然的气息留白，使整体排版大方且富有活力。",
-      "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782191053765_paste_1782191053764.png",
-      "posX": -28.413115558053704,
-      "posY": -201.46073460567266,
-      "isAnalyzed": true,
-      "tags": [
-        {
-          "id": "custom-card-1782191055833-tag-vlm-0",
-          "name": "叠层卡片",
-          "category": "Aesthetic"
-        },
-        {
-          "id": "custom-card-1782191055833-tag-vlm-1",
-          "name": "非对称排版",
-          "category": "Aesthetic"
-        },
-        {
-          "id": "custom-card-1782191055833-tag-vlm-2",
-          "name": "暖调奶油色",
-          "category": "Aesthetic"
-        },
-        {
-          "id": "custom-card-1782191055833-tag-vlm-3",
-          "name": "毛玻璃细描边",
-          "category": "Aesthetic"
-        },
-        {
-          "id": "custom-card-1782191055833-tag-vlm-4",
-          "name": "垂直滑动吸附",
-          "category": "Technical"
-        },
-        {
-          "id": "custom-card-1782191055833-tag-vlm-5",
-          "name": "1px 细微高光框",
-          "category": "Technical"
-        }
-      ],
-      "prompt": "An elegant, production-ready web application homepage showcase. In the center, a viewport displays a sequence of stacked vertical UI cards which are scrollable vertically with gorgeous isometric rendering and micro rounded corners, showing high-contrast app interfaces with tech mockups. The surrounding page layout uses an extremely neat 12-column grid structure, paired with a super-clean, high-spacing Swiss typographic hierarchy, tiny uppercase functional subtitles, fine status badges, premium minimal styling, slate gray and warm bone background color, cinematic render.",
-      "specs": "/* Tailwind 独立拼贴与纵轴滑动核心配方 */\n\n- 主页容器: grid grid-cols-12 gap-8 w-full min-h-screen px-12 py-10 bg-[#FAF9F6]\n- 纵生滑动轴: flex flex-col gap-6 overflow-y-auto snap-y snap-mandatory h-[520px] scrollbar-none\n- 卡片单元: snap-start shrink-0 rounded-2xl border border-neutral-200/50 hover:border-[#1B2D26]/40 transition-all duration-300 shadow-[0_8px_30px_rgba(0,0,0,0.02)] bg-white p-6\n- 瑞士等距字: font-sans text-xs tracking-wider uppercase font-medium text-neutral-400",
-      "annotations": [
-        {
-          "id": "custom-card-1782191055833-ann-vlm-1",
-          "num": 1,
-          "x": 50,
-          "y": 45,
-          "title": "横轴卡片",
-          "desc": "采用上下轻滑叠层卡片的滑动轮播，带有令人舒适的滑动触感。左右依次浮现品牌核心视觉图片，适合替换feed流，更有趣生动或用于某种品牌设计logo呈现形式",
-          "category": "交互动作",
-          "edited": true,
-          "starred": true
-        },
-        {
-          "id": "custom-card-1782191055833-ann-vlm-3",
-          "num": 2,
-          "x": 88,
-          "y": 20,
-          "title": "极简字符标牌+浮现动画",
-          "desc": "英文和序号使用小号等宽字居中的徽章装点，带点科技工业质感。",
-          "category": "细节修饰+动效设计",
-          "edited": true
-        }
-      ],
-      "websiteUrl": "https://shopify.design/?ref=landing.love#hero-artifact",
-      "colorPalette": [
-        "#FAF9F6",
-        "#1B2D26",
-        "#ECE9E4",
-        "#D8D2C4",
-        "#2B2924"
-      ],
-      "uiSpecification": {
-        "background": "清冷温暖骨面平铺浅灰纸底 (#FAF9F6 / 经典瑞士高雅白)",
-        "panels": "24px 超大圆角主体面板，搭配 1px 半透明极浅细微高光描边",
-        "shadows": "极轻浮空接触软阴影效果 ( shadow-[0_8px_30px_rgba(0,0,0,0.02)] ) 避免界面繁琐喧宾夺主",
-        "controls": "自重置纵向滑动对齐卡片 (Vertical Carousels with Snap Point) + 隐藏式圆形数字高光指示 badge",
-        "typography": "简洁流畅的现代 Helvetica/Inter 无衬线大字重标题 + 全大写等宽 Mono 微标徽章对准"
-      }
-    },
-    {
-      "id": "custom-card-1782293036079",
-      "name": "垂直滑动叠卡极简落面板",
-      "description": "这款卡片设计采用垂直方向的堆叠卡包作为中央主视觉，浏览轻量连贯。两翼留出自然的气息留白，使整体排版大方且富有活力。",
-      "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782293031896_paste_1782293031895.png",
-      "posX": 202.21458569632875,
-      "posY": 64.46458569632875,
-      "isAnalyzed": true,
-      "tags": [
-        {
-          "id": "custom-card-1782293036079-tag-vlm-0",
-          "name": "叠层卡片",
-          "category": "Aesthetic"
-        },
-        {
-          "id": "custom-card-1782293036079-tag-vlm-1",
-          "name": "非对称排版",
-          "category": "Aesthetic"
-        },
-        {
-          "id": "custom-card-1782293036079-tag-vlm-2",
-          "name": "暖调奶油色",
-          "category": "Aesthetic"
-        },
-        {
-          "id": "custom-card-1782293036079-tag-vlm-3",
-          "name": "毛玻璃细描边",
-          "category": "Aesthetic"
-        },
-        {
-          "id": "custom-card-1782293036079-tag-vlm-4",
-          "name": "垂直滑动吸附",
-          "category": "Technical"
-        },
-        {
-          "id": "custom-card-1782293036079-tag-vlm-5",
-          "name": "1px 细微高光框",
-          "category": "Technical"
-        }
-      ],
-      "prompt": "An elegant, production-ready web application homepage showcase. In the center, a viewport displays a sequence of stacked vertical UI cards which are scrollable vertically with gorgeous isometric rendering and micro rounded corners, showing high-contrast app interfaces with tech mockups. The surrounding page layout uses an extremely neat 12-column grid structure, paired with a super-clean, high-spacing Swiss typographic hierarchy, tiny uppercase functional subtitles, fine status badges, premium minimal styling, slate gray and warm bone background color, cinematic render.",
-      "specs": "/* Tailwind 独立拼贴与纵轴滑动核心配方 */\n\n- 主页容器: grid grid-cols-12 gap-8 w-full min-h-screen px-12 py-10 bg-[#FAF9F6]\n- 纵生滑动轴: flex flex-col gap-6 overflow-y-auto snap-y snap-mandatory h-[520px] scrollbar-none\n- 卡片单元: snap-start shrink-0 rounded-2xl border border-neutral-200/50 hover:border-[#1B2D26]/40 transition-all duration-300 shadow-[0_8px_30px_rgba(0,0,0,0.02)] bg-white p-6\n- 瑞士等距字: font-sans text-xs tracking-wider uppercase font-medium text-neutral-400",
-      "annotations": [
-        {
-          "id": "custom-card-1782293036079-ann-vlm-1",
-          "num": 1,
-          "x": 50,
-          "y": 45,
-          "title": "垂直卡片滑动轮播",
-          "desc": "卡片堆在页面中间，支持顺滑的上下滑动，滑动停止时会自动对齐正中。"
-        },
-        {
-          "id": "custom-card-1782293036079-ann-vlm-2",
-          "num": 2,
-          "x": 12,
-          "y": 65,
-          "title": "左右非对称双栏",
-          "desc": "信息按左右一宽一窄排版，有节奏地给两侧留出空白，视觉观感十分轻松。"
-        }
-      ],
-      "colorPalette": [
-        "#FAF9F6",
-        "#1B2D26",
-        "#ECE9E4",
-        "#D8D2C4",
-        "#2B2924"
-      ],
-      "uiSpecification": {
-        "background": "清冷温暖骨面平铺浅灰纸底 (#FAF9F6 / 经典瑞士高雅白)",
-        "panels": "24px 超大圆角主体面板，搭配 1px 半透明极浅细微高光描边",
-        "shadows": "极轻浮空接触软阴影效果 ( shadow-[0_8px_30px_rgba(0,0,0,0.02)] ) 避免界面繁琐喧宾夺主",
-        "controls": "自重置纵向滑动对齐卡片 (Vertical Carousels with Snap Point) + 隐藏式圆形数字高光指示 badge",
-        "typography": "简洁流畅的现代 Helvetica/Inter 无衬线大字重标题 + 全大写等宽 Mono 微标徽章对准"
-      }
     }
   ],
-  "updatedAt": "2026-06-24T10:32:57.923Z",
+  "updatedAt": "2026-06-24T15:28:18.360Z",
   "version": "4.0"
 }
