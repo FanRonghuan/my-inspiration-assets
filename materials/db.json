@@ -323,8 +323,27 @@
         "controls": "自重置纵向滑动对齐卡片 (Vertical Carousels with Snap Point) + 隐藏式圆形数字高光指示 badge",
         "typography": "简洁流畅的现代 Helvetica/Inter 无衬线大字重标题 + 全大写等宽 Mono 微标徽章对准"
       }
+    },
+    {
+      "id": "custom-card-1782293036079",
+      "name": "剪贴板快照_17-23-56",
+      "description": "导入的新截图。请双击打开详细面板并启动「VLM美学深度转译」以萃取 AIGC 画笔和核心开发参数。",
+      "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782293031896_paste_1782293031895.png",
+      "posX": 434.7145856963288,
+      "posY": 290.7145856963288,
+      "isAnalyzed": false,
+      "tags": [
+        {
+          "id": "custom-card-1782293036079-tag-new",
+          "name": "待高级分析",
+          "category": "Custom"
+        }
+      ],
+      "prompt": "",
+      "specs": "",
+      "annotations": []
     }
   ],
-  "updatedAt": "2026-06-24T08:41:16.359Z",
+  "updatedAt": "2026-06-24T09:24:00.479Z",
   "version": "4.0"
 }
