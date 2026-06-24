@@ -248,8 +248,8 @@
       "name": "垂直滑动叠卡极简落面板",
       "description": "这款卡片设计采用垂直方向的堆叠卡包作为中央主视觉，浏览轻量连贯。两翼留出自然的气息留白，使整体排版大方且富有活力。",
       "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782191053765_paste_1782191053764.png",
-      "posX": 76.34878920385106,
-      "posY": -57.65121079614885,
+      "posX": -28.413115558053704,
+      "posY": -201.46073460567266,
       "isAnalyzed": true,
       "tags": [
         {
@@ -400,6 +400,6 @@
       }
     }
   ],
-  "updatedAt": "2026-06-24T09:52:23.142Z",
+  "updatedAt": "2026-06-24T10:29:54.711Z",
   "version": "4.0"
 }
