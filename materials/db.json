@@ -483,8 +483,8 @@
       "name": "纵轴卡片叠放滑动式官网 (Vertical Scroll Interface)",
       "description": "本案开创性地采用纵向滑动/卡片叠堆的视窗作为主视觉焦点（纵生感极强）。四角配以清冷高贵的极简对准格栅系统，完美体现极简的布局，避免无谓的杂乱信息。",
       "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782387400615_paste_1782387400614.png",
-      "posX": 481.6969640099619,
-      "posY": 331.1969640099619,
+      "posX": 634.6381404805502,
+      "posY": 408.84402283349135,
       "isAnalyzed": true,
       "tags": [
         {
@@ -549,6 +549,6 @@
       }
     }
   ],
-  "updatedAt": "2026-06-25T11:37:27.610Z",
+  "updatedAt": "2026-06-25T11:38:47.908Z",
   "version": "4.0"
 }
