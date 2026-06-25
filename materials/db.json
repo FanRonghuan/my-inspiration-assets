@@ -5,8 +5,8 @@
       "name": "极简画廊摄影展示页",
       "description": "采用柔和温润的浅灰白背景，搭配非对称三栏直角大图排版，营造出极具呼吸感与艺术画廊质感的线上摄影展厅。",
       "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782053195480_paste_1782053195479.png",
-      "posX": 281.607986602588,
-      "posY": -150.71554280917667,
+      "posX": 282.78445719082333,
+      "posY": -222.4802486915296,
       "isAnalyzed": true,
       "tags": [
         {
@@ -248,8 +248,8 @@
       "name": "垂直滑动叠卡极简落面板",
       "description": "这款卡片设计采用垂直方向的堆叠卡包作为中央主视觉，浏览轻量连贯。两翼留出自然的气息留白，使整体排版大方且富有活力。",
       "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782191053765_paste_1782191053764.png",
-      "posX": -101.35429202864194,
-      "posY": -117.93132284096677,
+      "posX": -28.413115558053704,
+      "posY": -201.46073460567266,
       "isAnalyzed": true,
       "tags": [
         {
@@ -329,8 +329,8 @@
       "name": "垂直滑动叠卡极简落面板",
       "description": "这款卡片设计采用垂直方向的堆叠卡包作为中央主视觉，浏览轻量连贯。两翼留出自然的气息留白，使整体排版大方且富有活力。",
       "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782293031896_paste_1782293031895.png",
-      "posX": 137.5087033433876,
-      "posY": 73.8763504022111,
+      "posX": 202.21458569632875,
+      "posY": 64.46458569632875,
       "isAnalyzed": true,
       "tags": [
         {
@@ -400,6 +400,6 @@
       }
     }
   ],
-  "updatedAt": "2026-06-24T15:40:12.139Z",
+  "updatedAt": "2026-06-25T02:18:58.537Z",
   "version": "4.0"
 }
