@@ -487,8 +487,8 @@
       "name": "剪贴板快照_10-23-56",
       "description": "导入的新截图。请双击打开详细面板并启动「VLM美学深度转译」以萃取 AIGC 画笔和核心开发参数。",
       "imageUrl": "https://raw.githubusercontent.com/FanRonghuan/my-inspiration-assets/main/materials/1782354217400_paste_1782354217400.png",
-      "posX": 589.3682390205199,
-      "posY": 329.36823902051987,
+      "posX": 777.603533138167,
+      "posY": 75.25059196169634,
       "isAnalyzed": false,
       "tags": [
         {
@@ -502,6 +502,6 @@
       "annotations": []
     }
   ],
-  "updatedAt": "2026-06-25T02:30:03.020Z",
+  "updatedAt": "2026-06-25T02:30:09.040Z",
   "version": "4.0"
 }
